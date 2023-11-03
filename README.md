@@ -14,6 +14,7 @@ npm install uuid
 npx create-next-app@latest
 ```
 
+<p>
 What is your project named? traversy-courses
 Would you like to use TypeScript? No
 Would you like to use ESLint? No
@@ -22,6 +23,7 @@ Would you like to use `src/` directory? Yes
 Would you like to use App Router? (recommended) Yes
 Would you like to customize the default import alias (@/*)? No
 What import alias would you like configured? @/*
+</p>
 
 ```bash
 npm run dev

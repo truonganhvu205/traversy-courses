@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Loading from './loading'
-import CourseSearch from './components/CourseSearch'
 import Courses from './components/Courses'
+import CourseSearch from './components/CourseSearch'
 
 export default function Home() {
   const [courses, setCourses] = useState([])

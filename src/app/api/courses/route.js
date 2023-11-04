@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import { v4 as uuidv4 } from 'uuid'
 import courses from './data.json'
+import { v4 as uuidv4 } from 'uuid'
 
 export const GET = async (req) => {
     return NextResponse.json(courses)
@@ -15,7 +15,6 @@ export const POST = async (req) => {
         level,
         link,
     }
-
     courses.push(newCourse)
 
     return NextResponse.json(courses)

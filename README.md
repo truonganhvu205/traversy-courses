@@ -39,9 +39,9 @@ npm run dev
 
 <table align='center'>
   <tr align='center'>
-    <td>Traversy Courses - Home page</td>
-    <td>Traversy Courses - About page</td>
-    <td>Traversy Courses - Our team</td>
+    <td>Home</td>
+    <td>About</td>
+    <td>Our team</td>
   </tr>
   <tr align='center'>
     <td>
@@ -58,8 +58,8 @@ npm run dev
 
 <table align='center'>
   <tr align='center'>
-    <td>Traversy Courses - Repositories</td>
-    <td>Traversy Courses - Repositories deeper</td>
+    <td>Repositories</td>
+    <td>Repositories deeper</td>
   </tr>
   <tr align='center'>
     <td>

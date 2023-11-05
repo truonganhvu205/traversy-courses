@@ -21,11 +21,11 @@ const RepoDirs = async ({ name }) => {
 
     return (
         <div>
-            <h3>Directories</h3>
-            <ul>
+            <h3 className='text-lg font-bold mb-4'>Directories</h3>
+            <ul className='list-disc ml-8 mb-4'>
                 {
                     dirs.map(dir => (
-                        <li key={dir.path}>
+                        <li key={dir.path} className='underline hover:no-underline'>
                             <Link href={`/code/repos/${name}/${dir.path}`}>
                                 {dir.path}
                             </Link>

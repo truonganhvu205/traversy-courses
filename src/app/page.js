@@ -24,7 +24,8 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Welcome to Traversy Media</h1>
+      <h1 className='my-4 text-4xl'>Welcome to Traversy Media.</h1>
+
 
       <CourseSearch getSearchResult={(result) => setCourses(result)} />
       <Courses courses={courses} />

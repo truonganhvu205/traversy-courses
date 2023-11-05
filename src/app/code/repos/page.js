@@ -24,26 +24,32 @@ const page = async () => {
 
     return (
         <div>
-            <h2>Repositories</h2>
+            <h2 className='my-4 text-4xl'>Repositories</h2>
 
             <ul>
                 {
                     repos.map(repo => (
-                        <li key={repo.id}>
+                        <li
+                            key={repo.id}
+                            className='mb-4 bg-white text-black rounded p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none'
+                        >
                             <Link href={`/code/repos/${repo.name}`}>
-                                <h3>{repo.name}</h3>
-                                <p>{repo.description}</p>
+                                <h3 className='text-2xl mb-4 font-semibold'>{repo.name}</h3>
+                                <p className='mb-4'>{repo.description}</p>
 
-                                <div>
-                                    <span>
-                                        <FaStar /> {repo.stargazers_count}
-                                    </span>
-                                    <span>
-                                        <FaCodeBranch /> {repo.forks_count}
-                                    </span>
-                                    <span>
-                                        <FaEye /> {repo.watchers_count}
-                                    </span>
+                                <div className='flex space-x-8 text-slate-500'>
+                                    <div className='flex justify-center items-center space-x-2'>
+                                        <FaStar />
+                                        <span>{repo.stargazers_count}</span>
+                                    </div>
+                                    <div className='flex justify-center items-center space-x-2'>
+                                        <FaCodeBranch />
+                                        <span>{repo.forks_count}</span>
+                                    </div>
+                                    <div className='flex justify-center items-center space-x-2'>
+                                        <FaEye />
+                                        <span>{repo.watchers_count}</span>
+                                    </div>
                                 </div>
                             </Link>
                         </li>

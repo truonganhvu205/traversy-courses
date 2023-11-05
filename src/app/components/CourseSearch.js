@@ -17,15 +17,25 @@ const CoursesSearch = ({ getSearchResult }) => {
 
     return (
         <div>
-            <form action="" onSubmit={handleSubmit}>
+            <form
+                action=""
+                onSubmit={handleSubmit}
+                className='mx-20 mb-8 flex items-center flex'
+            >
                 <input
                     type="text"
-                    placeholder='Search Courses...'
+                    placeholder='Search...'
                     value={query}
                     onChange={e => setQuery(e.target.value)}
+                    className='text-black rounded-l p-2 grow border-l border-y border-white'
                 />
 
-                <button type='submit'>Search</button>
+                <button
+                    type='submit'
+                    className='bg-sky-800 text-white p-2 px-8 rounded-r border border-white'
+                >
+                    Search
+                </button>
             </form>
         </div>
     )

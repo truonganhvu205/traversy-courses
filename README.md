@@ -1,15 +1,7 @@
-# Libraries
-## React Icons
-```bash
-npm install react-icons --save
-```
+# GitHub repositories
+[https://api.github.com/users/bradtraversy/repos](https://api.github.com/users/bradtraversy/repos)
 
-## uuid
-```bash
-npm install uuid
-```
-
-# Getting Started
+# Create Next.js app
 ```bash
 npx create-next-app@latest
 ```
@@ -26,8 +18,56 @@ What import alias would you like configured? [ @ ]/*
 ```
 
 ```bash
+cd traversy-courses
+```
+
+# Libraries
+## React Icons
+```bash
+npm install react-icons --save
+```
+
+## uuid
+```bash
+npm install uuid
+```
+
+# Getting Started
+```bash
 npm run dev
 ```
 
-# GitHub repositories
-[https://api.github.com/users/bradtraversy/repos](https://api.github.com/users/bradtraversy/repos)
+<table align='center'>
+  <tr align='center'>
+    <td>Traversy Courses - Home page</td>
+    <td>Traversy Courses - About page</td>
+    <td>Traversy Courses - Our team</td>
+  </tr>
+  <tr align='center'>
+    <td>
+      <img src='https://github.com/truonganhvu205/traversy-courses/blob/main/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023-pic-1.png' />
+    </td>
+    <td>
+      <img src='https://github.com/truonganhvu205/traversy-courses/blob/main/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023-pic-2.png' />
+    </td>
+    <td>
+      <img src='https://github.com/truonganhvu205/traversy-courses/blob/main/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023-pic-3.png' />
+    </td>
+  </tr>
+</table>
+
+<table align='center'>
+  <tr align='center'>
+    <td>Traversy Courses - Repositories</td>
+    <td>Traversy Courses - Repositories deeper</td>
+  </tr>
+  <tr align='center'>
+    <td>
+      <img src='https://github.com/truonganhvu205/traversy-courses/blob/main/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023-pic-4.png' />
+    </td>
+    <td>
+      <img src='https://github.com/truonganhvu205/traversy-courses/blob/main/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023/traversy-courses-nextjs-react-tailwind-css-truong-anh-vu-11-05-2023-pic-5.png' />
+    </td>
+  </tr>
+</table>
+

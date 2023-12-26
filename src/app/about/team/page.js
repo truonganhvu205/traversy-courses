@@ -83,7 +83,7 @@ const page = () => {
                         </p>
                     </div>
                     <div>
-                        <h1 className='mb-2 text-xl font-semibold'>About Courses</h1>
+                        <h1 className='mb-2 text-2xl font-semibold'>About Courses</h1>
 
                         <p className='w-4/5 h-1/2 text-justify'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.

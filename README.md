@@ -1,4 +1,4 @@
-# GitHub repositories
+# APIs
 [https://api.github.com/users/bradtraversy/repos](https://api.github.com/users/bradtraversy/repos)
 
 # Create Next.js app

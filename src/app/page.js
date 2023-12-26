@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Loading from './loading'
 import Courses from './components/Courses'
 import CourseSearch from './components/CourseSearch'

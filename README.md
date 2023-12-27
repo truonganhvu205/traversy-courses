@@ -1,6 +1,7 @@
 # API
 [https://api.github.com/users/bradtraversy/repos](https://api.github.com/users/bradtraversy/repos)
 
+# Clone project
 ```bash
 git init
 git clone https://github.com/truonganhvu205/traversy-courses.git

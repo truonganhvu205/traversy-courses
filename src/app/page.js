@@ -11,7 +11,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/courses')
+    fetch('/api/courses')
       .then(response => response.json())
       .then(data => setCourses(data))
 
